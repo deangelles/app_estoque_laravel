@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/produtos/listar', 'ProdutoController@listar');
+
+
+route::post ('/produtos/listar', 'ProdutoController@listar');
